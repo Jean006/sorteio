@@ -1,0 +1,60 @@
+/* Estilos para o body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o container */
+.container {
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000dbf;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o título "SORTEIO" */
+h2 {
+    text-align: center;
+    color: #000000;
+}
+
+/* Estilos para as entradas (labels e inputs) */
+.entrada {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para o botão "SORTEAR" */
+#sortear {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #000dbf;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos para o resultado */
+#resultado {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+}

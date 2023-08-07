@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --cor: #000
+        }
+        #arena{
+            height: 200px;
+            width: 200px;
+            background-color: var(--cor);
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        <h1 id="texto">texto
+        </h1>
+    </div>
+<script>
+    let ref = document.querySelector (':root');
+    let refstyle = getComputedStyle(ref);
+    let corArea = refstyle.getPropertyValue('--cor');
+    let contexto = document.getElementById ('texto');
+
+    if (corArea == '#000') {
+        contexto.stule.color = 'white';
+    }
+    else {
+        contexto.style.color = 'black';
+    }
+</script>
+</body>
+</html>
